@@ -2,10 +2,12 @@ import 'package:flutter/material.dart';
 import 'home_screens.dart';
 
 class SubmissionScreen extends StatelessWidget {
+  const SubmissionScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 246, 210, 240),
+      backgroundColor: const Color.fromARGB(255, 246, 210, 240),
       appBar: AppBar(
         title: const Text(
           'Submission Status',

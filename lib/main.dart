@@ -1,4 +1,5 @@
 import 'package:coding_app/screens/home_screens.dart';
+import 'package:coding_app/screens/welcome_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,6 +15,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Coding Test App',
-        home: HomePage());
+        home: WelcomScreen());
   }
 }

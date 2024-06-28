@@ -112,7 +112,7 @@ class HomePage extends StatelessWidget {
     ];
 
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 246, 210, 240),
+      backgroundColor: const Color.fromARGB(255, 246, 210, 240),
       appBar: AppBar(
         title: const Text(
           'Coding Problems',
@@ -121,7 +121,7 @@ class HomePage extends StatelessWidget {
             fontSize: 20.0,
           ),
         ),
-        backgroundColor: Color.fromARGB(255, 80, 3, 56),
+        backgroundColor: const Color.fromARGB(255, 80, 3, 56),
         elevation: 4.0,
         centerTitle: true,
       ),
@@ -135,7 +135,7 @@ class HomePage extends StatelessWidget {
 
   Widget _buildProblemTile(BuildContext context, Problem problem) {
     return Card(
-      shadowColor: Color.fromARGB(255, 80, 3, 56),
+      shadowColor: const Color.fromARGB(255, 80, 3, 56),
       shape: BeveledRectangleBorder(
         borderRadius: BorderRadius.circular(10),
       ),
