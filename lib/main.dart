@@ -15,6 +15,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Coding Test App',
-        home: WelcomScreen());
+        home: HomePage());
   }
 }
