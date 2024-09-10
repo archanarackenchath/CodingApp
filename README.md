@@ -1,17 +1,15 @@
 # Coding App
 
 ## Overview
-The **CodingApp** is an application built using Flutter that provides various coding resources, exercises, and challenges to improve programming skills.
+The **CodingApp** is an application built using Flutter that provides various coding exercises, and challenges to improve and showcase the programming skills.
 
 ## Screenshot
 ![App Screenshot](/screenshot.jpg)
 
 
 ## Features
-- Coding tutorials
 - Interactive exercises
 - Progress tracking
-- Challenges and competitions
 
 ## Technologies Used
 - Flutter
