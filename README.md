@@ -3,9 +3,35 @@
 ## Overview
 The **CodingApp** is an application built using Flutter that provides various coding resources, exercises, and challenges to improve programming skills.
 
+## Screenshot
+![App Screenshot](/screenshot.jpg)
+
+
 ## Features
 - Coding tutorials
 - Interactive exercises
 - Progress tracking
 - Challenges and competitions
 
+## Technologies Used
+- Flutter
+- Dart
+
+## Installation
+Follow these steps to run the app locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/archanarackenchath/CodingApp.git
+
+2. Navigate to the project directory:
+   ```bash
+   cd CodingApp
+
+3. Install dependencies:
+   ```bash
+   flutter pub get
+   
+4. Run the App:
+    ```bash
+    flutter run
